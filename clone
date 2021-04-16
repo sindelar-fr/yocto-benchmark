@@ -13,7 +13,7 @@ if [ ! -d poky ]; then
         (cd poky; git checkout 165b337dfe00fd460c62d2e15a8a2c5613bb326c)
 
     elif [ "$distro" = "zeus" ]; then
-        (cd poky; git checkout cf92a2d567260b91a259652bad0ecd790750f710 )
+        (cd poky; git checkout master)
 
     fi
 fi
